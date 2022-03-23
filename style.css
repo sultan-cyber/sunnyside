@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 0;
+    text-decoration: 0;
+}
+header{
+    background-image: url(/img/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-color: rgb(28, 192, 241);
+    padding: 2vh 5vw;
+}
+nav img.navoptions{
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    nav ul{
+        display: none;
+    }
+    nav img.navoptions{
+        display: block;
+    }
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+ul a{
+    margin-right: 10px;
+    color: #fff;
+}
+.ori{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media screen and (max-width: 629px) {
+    .container{
+        grid-template-columns: auto;
+    }
+}
+.container div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dev{
+    padding: 2vh 3vw;
+}
+.container div img{
+    width: 100%;
+}
+h3{
+    line-height: 3;
+    font-size: 22px;
+}
+p{
+    line-height: 1;
+    font-size: 22px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+/*  */
+.sec1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.cherry{
+    background-image: url(/img/image-graphic-design.jpg);
+    height: 100%;
+}
+.dev{
+    margin-top: 300px;
+}
+.tange{
+    background-image: url(/img/image-photography.jpg);
+}
+h2{
+    text-align: center;
+    line-height: 2;
+}
+.sec2{
+    display: flex;
+}
+.flev img{
+border-radius: 50px;
+margin-left: 90px;
+}
+.flev div{
+    text-align: center;
+    border: 0.5px solid white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.oto{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0;
+    margin-top: 20px;
+}
+.oto img{
+    height: 420px;
+}
+footer{
+    background-color: powderblue;
+    height: 200px;
+}
+.nav-below{
+    align-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.nav-below a{
+    color: black;
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social img{
+    padding: 10px;
+} 
+@media  and (max-width=600px) {
+    .sec1 {
+        grid-template-columns: auto
+    }
+    .dev{
+        margin-top: auto;
+    }
+    
+}
